@@ -15,7 +15,7 @@ const Card = ({ data: { title, selftext_html, url, score } }) => {
         <Accordion
             type="single"
             collapsible
-            className="w-full mb-4 hover:cursor-pointer border border-black py-1 px-5 rounded-lg bg-white shadow-md transition-all hover:bg-zinc-100"
+            className="w-full mb-4 hover:cursor-pointer border  py-1 px-5 rounded-[8px] bg-white shadow-md transition-all hover:bg-zinc-100"
         >
             <AccordionItem value={title} className="border-none">
                 <AccordionTrigger className="md:text-xl font-medium text-left">
